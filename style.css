@@ -1,0 +1,108 @@
+body{
+    color: black;
+    padding: 0px;
+    width: 960px;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+.firstStr{
+    background-color: black;
+    color : white;
+    padding: 2px 0px 2px 0px;
+    text-align: center;
+    font-size: 18px;
+}
+.clearfix{
+    overflow: auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.link1{
+    color: white;
+}
+.leftTitle{
+    float: left;
+    font-size: 30px;
+}
+.acc{
+    float: right;
+    font-size: 30px;
+}
+.centrMess{
+    text-align: center;
+    font-size: 100px;
+}
+.str1{
+    width: 35px;
+    margin: auto;
+    transform: rotate(90deg);
+    margin-bottom: 40px;
+}
+.str2{
+    width: 35px;
+    margin-left: auto;
+    position: relative;
+    top: 12px;
+}
+.str3{
+    width: 35px;
+    margin-left: auto;
+    position: relative;
+    top: -45px;
+}
+.strWhite img{
+    width: 35px;
+    float: right;
+    position: relative;
+    top: -55px;
+}
+.textInArea{
+    float: left;
+    mergin-right: auto;
+    font-size: 20px;
+    margin-botom: 30px;
+}
+.img1 img{
+    width: 960px;
+}
+.img2 img{
+    width: 960px;
+}
+.img3 img{
+     width: 960px;
+ }
+
+.viewMoreCases{
+    background-color: #efefef;
+    height: 30px;
+    padding-left: 25px;
+    margin-top:40px;
+}
+.viewMoreCases p{
+    padding-top: 8px;
+}
+.blackArea{
+    background: black;
+}
+.whiteFontBig{
+    color: white;
+    font-size: 50px;
+    height: 300px;
+}
+.whiteFontSmall{
+    color: white;
+    font-size: 25px;
+    padding-top: 60px;
+}
+.privacy{
+    text-align: center;
+}
+.email{
+    float: left;
+}
+.lang{
+    float: right;
+}
